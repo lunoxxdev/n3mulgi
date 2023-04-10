@@ -36,7 +36,7 @@ mkdir -p /var/lib/scrz-prem >/dev/null 2>&1
 echo "IP=" >> /var/lib/scrz-prem/ipvps.conf
 
 
-wget -q https://github.com/andristji/Xray-SSH/raw/main/tools.sh;chmod +x tools.sh;./tools.sh
+wget -q https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/tools.sh;chmod +x tools.sh;./tools.sh
 rm tools.sh
 clear
 
@@ -89,7 +89,7 @@ wget -q -O /usr/bin/notramcpu "https://raw.githubusercontent.com/andristji/Xray-
 
 cd
 #remove log 
-#wget -q -O /usr/bin/removelog "https://github.com/andristji/Xray-SSH/raw/main/log.sh" && chmod +x /usr/bin/removelog
+#wget -q -O /usr/bin/removelog "https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/log.sh" && chmod +x /usr/bin/removelog
 #sleep 1
 rm -f /root/ins-xray.sh
 rm -f /root/insshws.sh

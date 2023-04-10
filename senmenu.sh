@@ -37,7 +37,7 @@ wget -q -O /usr/bin/clearlog "https://raw.githubusercontent.com/andristji/Xray-S
 wget -q -O /usr/bin/genssl "https://raw.githubusercontent.com/andristji/Xray-SSH/main/Menu%20Final/Lain/genssl.sh"
 wget -q -O /usr/bin/restartsc "https://raw.githubusercontent.com/andristji/Xray-SSH/main/Menu%20Final/Lain/restart.sh"
 wget -q -O /usr/bin/running "https://raw.githubusercontent.com/andristji/Xray-SSH/main/Menu%20Final/Lain/running.sh"
-wget -q -O /usr/bin/cek-speed "https://github.com/andristji/Xray-SSH/raw/main/Menu%20Final/Lain/speedtes_cli.py"
+wget -q -O /usr/bin/cek-speed "https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/Menu%20Final/Lain/speedtes_cli.py"
 wget -q -O /usr/bin/cek-trafik "https://raw.githubusercontent.com/andristji/Xray-SSH/main/Menu%20Final/Lain/cek-trafik.sh"
 
 
