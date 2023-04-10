@@ -146,7 +146,7 @@ rm -f xraymode.sh
 rm -f slow.sh
 echo "Saya Bersaksi Bahwa Myoi Mina dari Twice Adalah Wanita Terindah di Dunia" > bacasaya
 echo "I Testify That Myoi Mina from Twice Is The Most Beautiful Woman in the World" > readme
-echo "=====================-[   THEMOON ]-===================="
+echo "=====================-[   Lunoxx Impostor ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -187,7 +187,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Nyolong By Themoon ]-==============="
+echo "===============-[ Script Nyolong By Lunoxx Impostor ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
