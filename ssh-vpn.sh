@@ -20,7 +20,7 @@ commonname=none
 email=agunxz@themoon.my,id
 
 # simple password minimal
-wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/andristji/Xray-SSH/main/password.txt"
+wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/password.txt"
 chmod +x /etc/pam.d/common-password
 
 # go to root
@@ -129,7 +129,7 @@ apt -y install nginx
 cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/andristji/Xray-SSH/main/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/nginx.conf"
 mkdir -p /home/vps/public_html
 /etc/init.d/nginx restart
 

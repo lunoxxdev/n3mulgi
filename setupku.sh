@@ -66,10 +66,10 @@ echo -e "$green      Install SSH / WS               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/andristji/Xray-SSH/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 sleep 2
 clear
-wget https://raw.githubusercontent.com/andristji/Xray-SSH/main/nginx-ssl.sh && chmod +x nginx-ssl.sh && ./nginx-ssl.sh
+wget https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/nginx-ssl.sh && chmod +x nginx-ssl.sh && ./nginx-ssl.sh
 
 
 #install ssh ovpn
@@ -78,14 +78,14 @@ echo -e "$green      Install Websocket              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/andristji/Xray-SSH/main/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 
 #exp
 cd /usr/bin
-wget -O xp "https://raw.githubusercontent.com/andristji/Xray-SSH/main/xp.sh"
+wget -O xp "https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/xp.sh"
 chmod +x xp
 sleep 1
-wget -q -O /usr/bin/notramcpu "https://raw.githubusercontent.com/andristji/Xray-SSH/main/Menu%20Final/Lain/notramcpu" && chmod +x /usr/bin/notramcpu
+wget -q -O /usr/bin/notramcpu "https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/Menu%20Final/Lain/notramcpu" && chmod +x /usr/bin/notramcpu
 
 cd
 #remove log 
@@ -96,10 +96,10 @@ rm -f /root/insshws.sh
 rm -f /root/xraymode.sh
 
 #xray
-wget -q -O ins-xray.sh https://raw.githubusercontent.com/andristji/Xray-SSH/main/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget -q -O ins-xray.sh https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 sleep 1
-wget -q -O senmenu.sh https://raw.githubusercontent.com/andristji/Xray-SSH/main/senmenu.sh && chmod +x senmenu.sh && ./senmenu.sh
-wget -q -O slow.sh https://raw.githubusercontent.com/andristji/Xray-SSH/main/slow.sh && chmod +x slow.sh && ./slow.sh
+wget -q -O senmenu.sh https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/senmenu.sh && chmod +x senmenu.sh && ./senmenu.sh
+wget -q -O slow.sh https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/slow.sh && chmod +x slow.sh && ./slow.sh
 #cronjob
 #echo "30 * * * * root removelog" >> /etc/crontab
 

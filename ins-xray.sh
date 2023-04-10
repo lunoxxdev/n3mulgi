@@ -129,13 +129,13 @@ install_ssl(){
 mkdir -p /home/vps/public_html
 wget -q -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/vps.conf.txt"
 sleep 1
-wget -q -O xraymode.sh https://raw.githubusercontent.com/andristji/Xray-SSH/main/xraymode.sh && chmod +x xraymode.sh && ./xraymode.sh
+wget -q -O xraymode.sh https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/xraymode.sh && chmod +x xraymode.sh && ./xraymode.sh
 sleep 1 
-wget -q -O /etc/xray/config.json "https://raw.githubusercontent.com/andristji/Xray-SSH/main/conf/config.json"
+wget -q -O /etc/xray/config.json "https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/conf/config.json"
 chmod +x /etc/xray/config.json
 sleep 1 
 rm -f /etc/nginx/conf.d/xray.conf
-wget -q -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/andristji/Xray-SSH/main/conf/xray.conf"
+wget -q -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/conf/xray.conf"
 chmod +x /etc/nginx/conf.d/xray.conf
 
 # Installing Xray Service
