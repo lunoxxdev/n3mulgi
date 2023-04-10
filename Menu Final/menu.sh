@@ -107,7 +107,7 @@ echo -e "$COLOR1│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJ
 echo -e "$COLOR1│  \033[0m ${Blue} $ssh1        $vma           $vla          $tra               $ssa   $NC    $COLOR1│"
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "      $COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "      $COLOR1│${NC}                 •  Lunoxx Impostor  •                  $COLOR1│$NC"
+echo -e "      $COLOR1│${NC}                 •  Lunoxx  •                  $COLOR1│$NC"
 echo -e "      $COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
 echo -e " ${CYAN}[01]${NC} • [SSH MENU${NC}]${CYAN}[08]${NC} • [INSTALL ADS-BLOCK${NC}]${CYAN}[15]${NC} • [RUNNING${NC}]"

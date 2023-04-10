@@ -17,7 +17,7 @@ locality=none
 organization=none
 organizationalunit=TMSC
 commonname=none
-email=agunxz@Lunoxx Impostor.my,id
+email=agunxz@Lunoxx.my,id
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/password.txt"
