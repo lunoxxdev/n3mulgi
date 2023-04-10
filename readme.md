@@ -6,7 +6,7 @@
 ## Installation Link<br>
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/arismaramar/Xray-SSH/main/setupku.sh && chmod +x setupku.sh && ./setupku.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/setupku.sh && chmod +x setupku.sh && ./setupku.sh
   ```
 ## Fitur:
 <br>
@@ -18,7 +18,7 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 ✅ XRAY TROJAN TCP TLS 443<br>
 <br>
 Registrasi IP 
-:<a href="https://t.me/" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
+:<a href="https://t.me/lunoximpostor" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
 
 ## SS
 
