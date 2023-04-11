@@ -144,8 +144,8 @@ rm -f senmenu.sh
 rm -f setupku.sh
 rm -f xraymode.sh
 rm -f slow.sh
-echo "Saya Bersaksi Bahwa Myoi Mina dari Twice Adalah Wanita Terindah di Dunia" > bacasaya
-echo "I Testify That Myoi Mina from Twice Is The Most Beautiful Woman in the World" > readme
+echo "LunoxxImpostor in your area" > bacasaya
+echo "asede qntl sama lu semua ngentd ngentd sama lu semua" > readme
 echo "=====================-[   Lunoxx ]-===================="
 echo ""
 echo "------------------------------------------------------------"
@@ -187,7 +187,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Nyolong By Lunoxx ]-==============="
+echo "===============-[ Lunoxx Impostor ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
