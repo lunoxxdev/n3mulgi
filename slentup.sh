@@ -191,7 +191,7 @@ echo "===============-[ Lunoxx Impostor ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
-echo "Lunoxx Impostor"
+echo -e "[ ${green}INFO${NC} ] Wes mari Cokk | Lunoxx Impostor "
 sleep 1
 clear
 echo -ne "[ ${yell}WARNING${NC} ] Do you want to reboot now ? (y/n)? "
