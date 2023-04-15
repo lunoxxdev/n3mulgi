@@ -8,13 +8,13 @@ apt install jq curl -y
 #sub=$(</dev/urandom tr -dc a-z | head -c4)
 clear
 echo -e ""
-echo -e "jangan karakter singkat seperti: sg, id, hk,"
-echo -e "kalau bisa 1 kata yang unik dengan dikombinasikan dengan angka"
-echo -e "contoh: lunoxx69"
-echo -e "Sehabis generate domain, silahkan pilih add-host lalu gen-cert"
+echo -e "${green}Jangan Karakter Singkat Seperti : sg, id, hk,${NC}"
+echo -e "${yellow}kalau bisa 1 kata yang unik dengan dikombinasikan dengan angka${NC}"
+echo -e "Contoh: lunoxx69"
+echo -e "${red}Sehabis Generate Domain, Silahkan Pilih Add-host Lalu Gen-cert${NC}"
 echo -e ""
 echo -e "\e[32msubdomain\e[0m.lunoxxz.cloud"
-read -p "Mau subdomain apa?( 1kata ) : " sub
+read -p "${green}Mau Subdomain Apa?( 1 Kata )${NC} : " sub
 if [[ $sub == "" ]]; then
 clear
 echo -e "${EROR} No Input Detected !"
