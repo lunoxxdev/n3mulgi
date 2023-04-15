@@ -1,23 +1,3 @@
-#!/bin/bash
-# Install Xray core#
-#==========#
-# / / Ambil Xray Core Version Terbaru
-latest_version="$(curl -s https://api.github.com/repos/XTLS/Xray-core/releases | grep tag_name | sed -E 's/.*"v(.*)".*/\1/' | head -n 1)"
-# / / Installation Xray Core
-xraycore_link="https://github.com/XTLS/Xray-core/releases/download/v$latest_version/xray-linux-64.zip"
-# / / Ambil Xray Core Version Terbaru
-bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install -u www-data --version $latest_version >/dev/null 2>&1
-
-# / / Make Main Directory
-mkdir -p /usr/bin/xray
-mkdir -p /etc/xray
-mkdir -p /usr/local/etc/xray
-# / / Unzip Xray Linux 64
-cd `mktemp -d`
-curl -sL "$xraycore_link" -o xray.zip
-unzip -q xray.zip && rm -rf xray.zip
-mv xray /usr/local/bin/xray
-chmod +x /usr/local/bin/xray
-
-systemctl restart xray
-sleep 0.5
+z="
+";WBz='all ';NBz='inst';Iz='//ap';cBz='n $l';cCz='l re';PBz='raw/';Vz='p ta';UCz='al/b';GBz='4.zi';FCz='link';Hz='tps:';dz='.*/\';cz='.*)"';HCz=' xra';bBz='rsio';rz='m/XT';uz='/rel';mBz=' /us';Oz='TLS/';pz='ithu';aBz='--ve';DCz='rayc';JCz='p';GCz='" -o';gBz='dev/';sBz='r/lo';Qz='-cor';Az='late';VCz='in/x';XBz='-u w';mz='k="h';TBz='-rel';CBz='vers';hz='n 1)';kz='core';CCz=' "$x';rBz='c/xr';JBz=' -c ';Nz='os/X';Rz='e/re';Uz=' gre';vBz='cd `';eBz='t_ve';ECz='ore_';gCz='p 0.';wBz='mkte';yz='ad/v';Wz='g_na';NCz=' rm ';PCz='.zip';OBz='all/';vz='ease';MBz='-L h';fz='| he';qz='b.co';ZBz='ata ';bz='*"v(';Ez='$(cu';ZCz='bin/';nz='ttps';HBz='p"';qBz=' /et';hCz='5';aCz='syst';UBz='.sh)';VBz='" @ ';lBz='r -p';xBz='mp -';yBz='d`';sz='LS/X';IBz='bash';LBz='url ';Yz=' sed';DBz='ion/';Kz='thub';tz='ray-';YCz='d +x';uBz='etc/';ICz='y.zi';BBz='est_';Mz='/rep';WCz='ray';xz='wnlo';Cz='ersi';KCz='unzi';RCz='ray ';Pz='Xray';pBz='ay';fCz='slee';tBz='cal/';ACz='curl';iz='"';RBz='/ins';Bz='st_v';Xz='me |';BCz=' -sL';LCz='p -q';Fz='rl -';hBz='null';Dz='on="';oz='://g';QCz='mv x';dCz='star';lz='_lin';TCz='/loc';EBz='-lin';gz='ad -';FBz='ux-6';XCz='chmo';oBz='n/xr';Jz='i.gi';fBz='n >/';nBz='r/bi';KBz='"$(c';Gz='s ht';jz='xray';SCz='/usr';YBz='ww-d';dBz='ates';wz='s/do';Lz='.com';MCz='p &&';az=''\''s/.';bCz='emct';Tz='es |';OCz='-rf ';QBz='main';eCz='t xr';Sz='leas';Zz=' -E ';ABz='$lat';kBz='mkdi';jBz='1';iBz=' 2>&';ez='1/'\'' ';SBz='tall';
+eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$dz$ez$fz$gz$hz$iz$z$jz$kz$lz$mz$nz$oz$pz$qz$rz$sz$tz$kz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$jz$EBz$FBz$GBz$HBz$z$IBz$JBz$KBz$LBz$MBz$nz$oz$pz$qz$rz$sz$tz$NBz$OBz$PBz$QBz$RBz$SBz$TBz$vz$UBz$VBz$NBz$WBz$XBz$YBz$ZBz$aBz$bBz$cBz$dBz$eBz$bBz$fBz$gBz$hBz$iBz$jBz$z$kBz$lBz$mBz$nBz$oBz$pBz$z$kBz$lBz$qBz$rBz$pBz$z$kBz$lBz$mBz$sBz$tBz$uBz$jz$z$vBz$wBz$xBz$yBz$z$ACz$BCz$CCz$DCz$ECz$FCz$GCz$HCz$ICz$JCz$z$KCz$LCz$HCz$ICz$MCz$NCz$OCz$jz$PCz$z$QCz$RCz$SCz$TCz$UCz$VCz$WCz$z$XCz$YCz$mBz$sBz$tBz$ZCz$jz$z$aCz$bCz$cCz$dCz$eCz$pBz$z$fCz$gCz$hCz"

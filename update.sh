@@ -1,10 +1,3 @@
-#!/bin/bash
-LocalVersion=$(cat /root/versi)
-Version=$(curl -sS https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/update/versinew | awk '{print $1}')
-if [ $LocalVersion = $Version ]; then
-echo -e "\e[32mScript Sudah Versi Terbaru...\e[0m"
-else
-echo -e "\e[32mAda Update Script!!\e[0m";
-wget -q -O updateyes.sh https://raw.githubusercontent.com/lunoxxdev/n3mulgi/main/update/updateyes.sh && chmod +x updateyes.sh && ./updateyes.sh
-rm -f updateyes.sh
-fi
+z="
+";JBz='da U';TBz='eyes';Ez='at /';mBz='s.sh';CBz='rbar';KBz='pdat';mz='calV';SBz='-O u';pBz='d +x';sz='n';YBz='gith';Bz='lVer';oBz='chmo';Dz='=$(c';kz='if [';ACz='yes.';yBz='date';Tz='tent';iz='t $1';ZBz='ubus';Cz='sion';NBz='!!\e';CCz='fi';cz='te/v';sBz='es.s';jBz='/upd';bBz='nten';qBz=' upd';vBz='.sh';hz='prin';ABz='dah ';aBz='erco';cBz='t.co';FBz='.\e[';QBz='wget';iBz='main';IBz='32mA';Mz='sS h';Zz='gi/m';Rz='buse';kBz='ate/';Sz='rcon';uz=' -e ';fz='| aw';EBz='kk..';DBz='u Co';Gz='/ver';qz='n ];';Az='Loca';wz='32mS';eBz='noxx';rz=' the';Pz='aw.g';Nz='ttps';BBz='i Te';yz='t Su';lBz='teye';Iz='Vers';oz=' $Ve';lz=' $Lo';Xz='ev/n';RBz=' -q ';OBz='[0m"';xz='crip';jz='}'\'')';Wz='oxxd';MBz='ript';LBz='e Sc';Vz='/lun';Fz='root';Kz='$(cu';wBz='rm -';VBz='http';ez='new ';BCz='sh';Lz='rl -';nBz=' && ';dBz='m/lu';az='ain/';uBz=' ./u';GBz='0m"';hBz='lgi/';nz='on =';Jz='ion=';xBz='f up';gBz='n3mu';gz='k '\''{';tBz='h &&';bz='upda';Hz='si)';Oz='://r';XBz='raw.';vz='"\e[';tz='echo';WBz='s://';Qz='ithu';Yz='3mul';PBz=';';rBz='atey';HBz='else';UBz='.sh ';Uz='.com';fBz='dev/';dz='ersi';pz='rsio';
+eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$z$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$dz$ez$fz$gz$hz$iz$jz$z$kz$lz$mz$dz$nz$oz$pz$qz$rz$sz$z$tz$uz$vz$wz$xz$yz$ABz$Iz$BBz$CBz$DBz$EBz$FBz$GBz$z$HBz$z$tz$uz$vz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$PBz$z$QBz$RBz$SBz$KBz$TBz$UBz$VBz$WBz$XBz$YBz$ZBz$aBz$bBz$cBz$dBz$eBz$fBz$gBz$hBz$iBz$jBz$kBz$bz$lBz$mBz$nBz$oBz$pBz$qBz$rBz$sBz$tBz$uBz$KBz$TBz$vBz$z$wBz$xBz$yBz$ACz$BCz$z$CCz"
