@@ -10,4 +10,4 @@
 ✅ XRAY TROJAN TCP TLS 443<br>
 <br>
 Registrasi IP 
-:<a href="https://t.me/lunoximpostor" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
+:<a href="https://t.me/lunoxximpostor" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
